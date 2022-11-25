@@ -1,5 +1,4 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -11,11 +10,12 @@ const IndexPage = () => (
     <section id="home">
       <h1>Welcome</h1>
       <p>Welcome to my site</p>
+      <img src={'blueblocks.png'} alt="some blue blocks"/>
     </section>
     <section id="about">
       <h1>About me</h1>
       <p>Hello! My name is Collin Werth (He/Him) and welcome to my portfolio. I am a soon to be graduating Portland state student with a bachelors of science in Computer Science. Seeking internships or jobs in the coming summer or fall of 2023. In my free time I enjoy running, gaming, and coding.</p>
-      <StaticImage src="../images/IMG_3513.jpeg" class="imgprof" alt="Picture of me"/>
+      <img src={'IMG_3513.jpeg'} class="imgprof" alt="Me by the river"/>
     </section>
     <section id="works">
       <h1>Works</h1>

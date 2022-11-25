@@ -14,6 +14,7 @@ module.exports = {
     author: `@b3atz`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
+  pathPrefix: "/portfolio",
   plugins: [
     `gatsby-plugin-image`,
     {

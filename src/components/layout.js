@@ -7,8 +7,6 @@
 
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
 import Header from "./header"
 import "./layout.css"
 
@@ -43,7 +41,7 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()} &middot; Built with
           {` `}
           <a href="https://www.gatsbyjs.com">
-          <StaticImage src="../images/gatsby-icon.png"  class="imgfooter"/>
+          <img src={'gatsby-icon.png'}  className="imgfooter" alt="gatsby logo"/>
           </a>
         </footer>
       </div>
