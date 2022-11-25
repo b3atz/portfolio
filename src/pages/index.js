@@ -1,6 +1,8 @@
 import * as React from "react"
+import Biobox from "../components/biobox"
 
 import Layout from "../components/layout"
+import Resbutton from "../components/resbutton"
 import Seo from "../components/seo"
 
 
@@ -9,18 +11,19 @@ const IndexPage = () => (
   <Layout>
     <section id="home">
       <h1>Welcome</h1>
-      <p>Welcome to my site</p>
-      <img src={'blue-blocks.png'} className="imgprof" alt="some blue blocks"/>
+      <div className="collist">
+        <p>Welcome to my site</p>
+        <img src={'lounge-web-design-1.png'} className="imgprof" alt="some blue blocks"/>
+      </div>
     </section>
     <section id="about">
       <h1>About me</h1>
-      <p>Hello! My name is Collin Werth (He/Him) and welcome to my portfolio. I am a soon to be graduating Portland state student with a bachelors of science in Computer Science. Seeking internships or jobs in the coming summer or fall of 2023. In my free time I enjoy running, gaming, and coding.</p>
-      <img src={'IMG_3513.jpeg'} className="imgprof" alt="Me by the river"/>
+      <Biobox child="Hello! My name is Collin Werth (He/Him) and welcome to my portfolio. I am a soon to be graduating Portland state student with a bachelors of science in Computer Science. Seeking internships or jobs in the coming summer or fall of 2023. In my free time I enjoy running, gaming, and coding." />
     </section>
     <section id="works">
       <h1>Works</h1>
       <h3>Computer Action Team PSU</h3>
-      <p>October 2019- December 2022 (volunteer)</p>
+      <p>October 2019 - December 2022 (volunteer)</p>
       <ul>
         <li>Worked as a member of the desk operations group, helping students and faculty with any tech problems that they might have in the school of MCECS</li>
         <li>Worked with the Web development team on creating and maintaining internal and external websites used by the department.</li>
@@ -28,8 +31,14 @@ const IndexPage = () => (
         <li>Worked as a mentor teaching technical and soft skills to new desk team members</li>
       </ul>
       <h3>Completed Courses</h3>
-      <ul>
+      <ul className="collist">
         <li>CS163 Data Structers</li>
+        <li>CS201 Computer Systems Programming</li>
+        <li>CS202 Programing Systems</li>
+        <li>CS300 Software Engineer</li>
+        <li>CS333 Operating Systems</li>
+        <li>CS350 Algrothims</li>
+        <li>CS494P Interworking Protocals</li>
       </ul>
     </section>
     <section id="projects">
@@ -37,9 +46,8 @@ const IndexPage = () => (
     </section>
     <section id="contact">
       <h1>Contact</h1>
-    </section>
-    <section id="resume">
-      <h1>Resume</h1>
+
+      <Resbutton />
     </section>
    </Layout>
 )

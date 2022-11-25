@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -11,15 +10,9 @@ const Header = ({ siteTitle }) => (
       justifyContent: `space-between`,
     }}
   >
-    <Link
-      to="/"
-      style={{
-        fontSize: `var(--font-sm)`,
-        textDecoration: `none`,
-      }}
-    >
-      {siteTitle}
-    </Link>
+    <a href="portfolio">
+      <img src={'icons8-source-code-96.png'} alt="source code logo" className="imgheader"></img>
+    </a> 
     <nav>
       <ul style={{
         listStyle: 'none',

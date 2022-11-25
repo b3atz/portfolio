@@ -85,18 +85,6 @@ samp {
   line-height: inherit;
 }
 
-hgroup,
-figure,
-fieldset,
-ul,
-ol,
-dl,
-dd,
-p {
-  margin: 0;
-  padding: 0;
-  margin-bottom: var(--space-4);
-}
 ul{
   margin-left: var(--space-4);
   list-style-position: outside;
@@ -113,14 +101,26 @@ li{
   padding: 5px;
 }
 section{
-  padding-bottom: 400px;
+  padding-bottom: 200px;
 }
 .imgprof{
   float: right;
   width: 300px;
   height: 200px;
 }
+p{
+  text-align: justify;
+}
 .imgfooter{
   width: 20px;
   height: 20px;
+}
+.imgheader{
+  width: 50px;
+  height: 50px;
+}
+.collist{
+  column-count: 2;
+  column-gap: 10px;
+  column-rule: 2px none;
 }
