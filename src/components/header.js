@@ -21,12 +21,15 @@ const Header = ({ siteTitle }) => (
       {siteTitle}
     </Link>
     <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#works">Work</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#resume">Resmue</a></li>
+      <ul style={{
+        listStyle: 'none',
+        display: "inline",
+        }}>
+        <li style={{ display: "inline"}}><a href="#about">About</a></li>
+        <li style={{ display: "inline"}}><a href="#works">Work</a></li>
+        <li style={{ display: "inline"}}><a href="#projects">Projects</a></li>
+        <li style={{ display: "inline"}}><a href="#contact">Contact</a></li>
+        <li style={{ display: "inline"}}><a href="#resume">Resmue</a></li>
       </ul>
     </nav>
   </header>
