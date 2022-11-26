@@ -1,18 +1,21 @@
 import * as React from "react"
 import Biobox from "../components/biobox"
+import Formcon from "../components/formcon"
 
 import Layout from "../components/layout"
 import Resbutton from "../components/resbutton"
 import Seo from "../components/seo"
+import Wheel from "../components/wheel"
 
 
 
 const IndexPage = () => (
   <Layout>
     <section id="home">
-      <h1>Welcome</h1>
+      <h1 className="title">Welcome</h1>
       <div className="collist">
-        <p>Welcome to my site</p>
+        <p>Welcome to my site!</p>
+        <Resbutton />
         <img src={'lounge-web-design-1.png'} className="imgprof" alt="some blue blocks"/>
       </div>
     </section>
@@ -43,11 +46,11 @@ const IndexPage = () => (
     </section>
     <section id="projects">
       <h1>Projects</h1>
+      <Wheel />
     </section>
     <section id="contact">
       <h1>Contact</h1>
-
-      <Resbutton />
+      <Formcon />
     </section>
    </Layout>
 )

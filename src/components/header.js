@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       justifyContent: `space-between`,
     }}
   >
-    <a href="portfolio">
+    <a href="/portfolio">
       <img src={'icons8-source-code-96.png'} alt="source code logo" className="imgheader"></img>
     </a> 
     <nav>

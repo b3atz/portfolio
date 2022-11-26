@@ -13,7 +13,7 @@ const Biobox = ({child}) => (
                     <td style={{ 
                         width: '40%',
                         }}>
-                        <img src={'IMG_3513.jpeg'} className="imgprof" alt="Me by the river"/>
+                        <img src={'IMG_3513.jpeg'} className="imgprof imgshadow" alt="Me by the river"/>
                     </td>
                 </tr>
             </table>

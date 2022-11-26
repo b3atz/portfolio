@@ -41,12 +41,16 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()} &middot; Built with
           {` `}
           <a href="https://www.gatsbyjs.com">
-          <img src={'gatsby-icon.png'}  className="imgfooter" alt="gatsby logo"/>
+            <img src={'gatsby-icon.png'}  className="imgfooter" alt="gatsby logo"/>
           </a>
+          <div style={{ float: 'right'}}>
+            <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a>. Illustrations by <a href="https://icons8.com/illustrations/author/627444">Julia G</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
+          </div>
         </footer>
       </div>
     </>
   )
 }
-
+//
+//<a target="_blank" href="https://icons8.com/icon/20675/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 export default Layout
