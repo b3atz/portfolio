@@ -4,18 +4,20 @@ const Biobox = ({child}) => (
     <div className='square'>
         <div>
             <table>
-                <tr>
-                    <td style={{ 
-                            width: '60%',
+                <tbody>
+                    <tr>
+                        <td style={{ 
+                                width: '60%',
+                                }}>
+                            <p>{child}</p>
+                        </td>
+                        <td style={{ 
+                            width: '40%',
                             }}>
-                        <p>{child}</p>
-                    </td>
-                    <td style={{ 
-                        width: '40%',
-                        }}>
-                        <img src={'IMG_3513.jpeg'} className="imgprof imgshadow" alt="Me by the river"/>
-                    </td>
-                </tr>
+                            <img src={'IMG_3513.jpeg'} className="imgprof imgshadow" alt="Me by the river"/>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>

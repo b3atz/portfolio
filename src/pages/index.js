@@ -16,7 +16,7 @@ const IndexPage = () => (
       <div className="collist">
         <p>Welcome to my site!</p>
         <Resbutton />
-        <img src={'lounge-web-design-1.png'} className="imgprof" alt="some blue blocks"/>
+        <img src={'lounge-web-design-1.png'} className="imgprof" alt="blue website illastration"/>
       </div>
     </section>
     <section id="about">
@@ -52,6 +52,9 @@ const IndexPage = () => (
       <h1>Contact</h1>
       <Formcon />
     </section>
+    <div style={{ float: 'right'}}>
+      <p>Icons by <a  href="https://icons8.com">Icons8</a>. Illustrations by <a href="https://icons8.com/illustrations/author/627444">Julia G</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
+    </div>
    </Layout>
 )
 

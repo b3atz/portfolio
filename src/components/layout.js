@@ -38,13 +38,20 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">
-            <img src={'gatsby-icon.png'}  className="imgfooter" alt="gatsby logo"/>
+          <div>
+            © b3atz{new Date().getFullYear()} &middot; Built with
+            {` `}
+            <a href="https://www.gatsbyjs.com">
+              <img src={'gatsby-icon.png'}  className="imgfooter" alt="gatsby logo"/>
+            </a>
+          </div>
+          <div>
+          <a href="https://github.com/b3atz">
+            <img src={'icons8-github-48.png'}  className="imgfooterR" alt="github logo"/>
           </a>
-          <div style={{ float: 'right'}}>
-            <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a>. Illustrations by <a href="https://icons8.com/illustrations/author/627444">Julia G</a> from <a href="https://icons8.com/illustrations">Ouch!</a></p>
+          <a href="https://www.linkedin.com/in/collin-werth-15830a195/">
+            <img src={'icons8-linkedin-50.png'}  className="imgfooterR" alt="Linkedin logo"/>
+          </a>
           </div>
         </footer>
       </div>
